@@ -13,6 +13,8 @@
 		01091FCB1DE0BB03005018F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01091FCA1DE0BB03005018F7 /* Assets.xcassets */; };
 		01091FCE1DE0BB03005018F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01091FCC1DE0BB03005018F7 /* LaunchScreen.storyboard */; };
 		01091FD91DE0BB04005018F7 /* GlassdoorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */; };
+		389313B50DECF79E8C249F34 /* Pods_GlassdoorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */; };
+		B787F05EFB7B0499A8B2F640 /* Pods_GlassdoorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		01091FD41DE0BB04005018F7 /* GlassdoorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassdoorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdoorAppTests.swift; sourceTree = "<group>"; };
 		01091FDA1DE0BB04005018F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.release.xcconfig"; sourceTree = "<group>"; };
+		77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B787F05EFB7B0499A8B2F640 /* Pods_GlassdoorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389313B50DECF79E8C249F34 /* Pods_GlassdoorAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				01091FC21DE0BB03005018F7 /* GlassdoorApp */,
 				01091FD71DE0BB04005018F7 /* GlassdoorAppTests */,
 				01091FC11DE0BB03005018F7 /* Products */,
+				37B96AF80C7F09DBAE4E9B3B /* Pods */,
+				A2EB179C7142BAB65050273D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = GlassdoorAppTests;
 			sourceTree = "<group>";
 		};
+		37B96AF80C7F09DBAE4E9B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */,
+				3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */,
+				16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */,
+				FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2EB179C7142BAB65050273D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */,
+				8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01091FDD1DE0BB04005018F7 /* Build configuration list for PBXNativeTarget "GlassdoorApp" */;
 			buildPhases = (
+				CB5F41B8403E76F49C8206E1 /* [CP] Check Pods Manifest.lock */,
 				01091FBC1DE0BB03005018F7 /* Sources */,
 				01091FBD1DE0BB03005018F7 /* Frameworks */,
 				01091FBE1DE0BB03005018F7 /* Resources */,
+				75552170CF1FAA564DB70AA4 /* [CP] Embed Pods Frameworks */,
+				28AF02F280A1EE95259B1E1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01091FE01DE0BB04005018F7 /* Build configuration list for PBXNativeTarget "GlassdoorAppTests" */;
 			buildPhases = (
+				43C9B43BC9EF14ADFE6801A8 /* [CP] Check Pods Manifest.lock */,
 				01091FD01DE0BB04005018F7 /* Sources */,
 				01091FD11DE0BB04005018F7 /* Frameworks */,
 				01091FD21DE0BB04005018F7 /* Resources */,
+				3BFE8C01022FA7CFC3CD6A49 /* [CP] Embed Pods Frameworks */,
+				FF1E9AB07AA3F9C4042165A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,11 +185,13 @@
 					01091FBF1DE0BB03005018F7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = KCL29RH4A8;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					01091FD31DE0BB04005018F7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = KCL29RH4A8;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 01091FBF1DE0BB03005018F7;
 					};
@@ -195,6 +235,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AF02F280A1EE95259B1E1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BFE8C01022FA7CFC3CD6A49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C9B43BC9EF14ADFE6801A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75552170CF1FAA564DB70AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB5F41B8403E76F49C8206E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1E9AB07AA3F9C4042165A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01091FBC1DE0BB03005018F7 /* Sources */ = {
@@ -339,6 +472,7 @@
 		};
 		01091FDE1DE0BB04005018F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCL29RH4A8;
@@ -352,6 +486,7 @@
 		};
 		01091FDF1DE0BB04005018F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCL29RH4A8;
@@ -365,6 +500,7 @@
 		};
 		01091FE11DE0BB04005018F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +516,7 @@
 		};
 		01091FE21DE0BB04005018F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +549,7 @@
 				01091FDF1DE0BB04005018F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01091FE01DE0BB04005018F7 /* Build configuration list for PBXNativeTarget "GlassdoorAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +558,7 @@
 				01091FE21DE0BB04005018F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_GlassdoorAppTests {
+  umbrella header "Pods-GlassdoorAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
