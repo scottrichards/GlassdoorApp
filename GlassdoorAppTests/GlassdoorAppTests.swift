@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import GlassdoorApp
+//@testable import GlassdoorApp
 
 class GlassdoorAppTests: XCTestCase {
     

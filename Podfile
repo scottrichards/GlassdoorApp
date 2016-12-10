@@ -8,10 +8,11 @@ target 'GlassdoorApp' do
   # Pods for GlassdoorApp
 
   pod 'AFNetworking', '~> 3.0'
-  pod 'SwiftyJSON'
+  #  pod 'SwiftyJSON'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+#  pod 'Alamofire', '~> 3.0'
 
   target 'GlassdoorAppTests' do
     inherit! :search_paths

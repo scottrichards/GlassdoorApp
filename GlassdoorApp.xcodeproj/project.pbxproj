@@ -13,8 +13,11 @@
 		01091FCB1DE0BB03005018F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01091FCA1DE0BB03005018F7 /* Assets.xcassets */; };
 		01091FCE1DE0BB03005018F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01091FCC1DE0BB03005018F7 /* LaunchScreen.storyboard */; };
 		01091FD91DE0BB04005018F7 /* GlassdoorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */; };
-		389313B50DECF79E8C249F34 /* Pods_GlassdoorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */; };
-		B787F05EFB7B0499A8B2F640 /* Pods_GlassdoorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */; };
+		016796F71DFC80E000F5801D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016796F61DFC80E000F5801D /* Constants.swift */; };
+		01847BFA1DE10CD60071268D /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01847BF91DE10CD60071268D /* Company.swift */; };
+		01847BFC1DE110230071268D /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01847BFB1DE110230071268D /* CompanyCell.swift */; };
+		8EAD68656340F5C9A8216F15 /* Pods_GlassdoorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B442AE5D5716D37C783DB350 /* Pods_GlassdoorApp.framework */; };
+		CC9B39ECD2AE0C652B4A4581 /* Pods_GlassdoorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43334D025779803B524384 /* Pods_GlassdoorAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +41,15 @@
 		01091FD41DE0BB04005018F7 /* GlassdoorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassdoorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdoorAppTests.swift; sourceTree = "<group>"; };
 		01091FDA1DE0BB04005018F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.release.xcconfig"; sourceTree = "<group>"; };
-		77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.debug.xcconfig"; sourceTree = "<group>"; };
-		8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		016796F61DFC80E000F5801D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01847BF91DE10CD60071268D /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		01847BFB1DE110230071268D /* CompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		291377C142AB088C664246B4 /* Pods-GlassdoorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58DACDBE4BFD49B5548F76A3 /* Pods-GlassdoorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D7EB333CC7D03E8DAE9148 /* Pods-GlassdoorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B442AE5D5716D37C783DB350 /* Pods_GlassdoorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58F6521F077CBD52264F0D5 /* Pods-GlassdoorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorApp/Pods-GlassdoorApp.release.xcconfig"; sourceTree = "<group>"; };
+		DB43334D025779803B524384 /* Pods_GlassdoorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdoorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B787F05EFB7B0499A8B2F640 /* Pods_GlassdoorApp.framework in Frameworks */,
+				8EAD68656340F5C9A8216F15 /* Pods_GlassdoorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389313B50DECF79E8C249F34 /* Pods_GlassdoorAppTests.framework in Frameworks */,
+				CC9B39ECD2AE0C652B4A4581 /* Pods_GlassdoorAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +78,8 @@
 				01091FC21DE0BB03005018F7 /* GlassdoorApp */,
 				01091FD71DE0BB04005018F7 /* GlassdoorAppTests */,
 				01091FC11DE0BB03005018F7 /* Products */,
-				37B96AF80C7F09DBAE4E9B3B /* Pods */,
-				A2EB179C7142BAB65050273D /* Frameworks */,
+				AF3B421F6FC15A2F587C8EF2 /* Pods */,
+				14CA2C082864E29359A20CA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,12 +95,15 @@
 		01091FC21DE0BB03005018F7 /* GlassdoorApp */ = {
 			isa = PBXGroup;
 			children = (
+				01847BF61DE10C850071268D /* Model */,
 				01091FC31DE0BB03005018F7 /* AppDelegate.swift */,
 				01091FC51DE0BB03005018F7 /* ViewController.swift */,
 				01091FC71DE0BB03005018F7 /* Main.storyboard */,
 				01091FCA1DE0BB03005018F7 /* Assets.xcassets */,
 				01091FCC1DE0BB03005018F7 /* LaunchScreen.storyboard */,
 				01091FCF1DE0BB03005018F7 /* Info.plist */,
+				01847BFB1DE110230071268D /* CompanyCell.swift */,
+				016796F61DFC80E000F5801D /* Constants.swift */,
 			);
 			path = GlassdoorApp;
 			sourceTree = "<group>";
@@ -108,24 +117,32 @@
 			path = GlassdoorAppTests;
 			sourceTree = "<group>";
 		};
-		37B96AF80C7F09DBAE4E9B3B /* Pods */ = {
+		01847BF61DE10C850071268D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */,
-				3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */,
-				16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */,
-				FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */,
+				01847BF91DE10CD60071268D /* Company.swift */,
 			);
-			name = Pods;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		A2EB179C7142BAB65050273D /* Frameworks */ = {
+		14CA2C082864E29359A20CA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FFEA82EAA97D6CB36BAA6F2 /* Pods_GlassdoorApp.framework */,
-				8557C591862387C36DAB927D /* Pods_GlassdoorAppTests.framework */,
+				B442AE5D5716D37C783DB350 /* Pods_GlassdoorApp.framework */,
+				DB43334D025779803B524384 /* Pods_GlassdoorAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3B421F6FC15A2F587C8EF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58DACDBE4BFD49B5548F76A3 /* Pods-GlassdoorApp.debug.xcconfig */,
+				C58F6521F077CBD52264F0D5 /* Pods-GlassdoorApp.release.xcconfig */,
+				291377C142AB088C664246B4 /* Pods-GlassdoorAppTests.debug.xcconfig */,
+				A0D7EB333CC7D03E8DAE9148 /* Pods-GlassdoorAppTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,8 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016796F71DFC80E000F5801D /* Constants.swift in Sources */,
 				01091FC61DE0BB03005018F7 /* ViewController.swift in Sources */,
 				01091FC41DE0BB03005018F7 /* AppDelegate.swift in Sources */,
+				01847BFA1DE10CD60071268D /* Company.swift in Sources */,
+				01847BFC1DE110230071268D /* CompanyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +443,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -465,6 +486,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -472,7 +494,7 @@
 		};
 		01091FDE1DE0BB04005018F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77A24E66A5EF4FDD50D22AEB /* Pods-GlassdoorApp.debug.xcconfig */;
+			baseConfigurationReference = 58DACDBE4BFD49B5548F76A3 /* Pods-GlassdoorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCL29RH4A8;
@@ -486,7 +508,7 @@
 		};
 		01091FDF1DE0BB04005018F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD9914BA45D616A4170420C /* Pods-GlassdoorApp.release.xcconfig */;
+			baseConfigurationReference = C58F6521F077CBD52264F0D5 /* Pods-GlassdoorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCL29RH4A8;
@@ -500,7 +522,7 @@
 		};
 		01091FE11DE0BB04005018F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16F66C1AFF93882DAB0FAFD8 /* Pods-GlassdoorAppTests.debug.xcconfig */;
+			baseConfigurationReference = 291377C142AB088C664246B4 /* Pods-GlassdoorAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,7 +538,7 @@
 		};
 		01091FE21DE0BB04005018F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF0C07DDB33CB34C8933257E /* Pods-GlassdoorAppTests.release.xcconfig */;
+			baseConfigurationReference = A0D7EB333CC7D03E8DAE9148 /* Pods-GlassdoorAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
