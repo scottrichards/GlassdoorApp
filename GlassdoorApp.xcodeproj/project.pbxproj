@@ -14,6 +14,7 @@
 		01091FCE1DE0BB03005018F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01091FCC1DE0BB03005018F7 /* LaunchScreen.storyboard */; };
 		01091FD91DE0BB04005018F7 /* GlassdoorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */; };
 		016796F71DFC80E000F5801D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016796F61DFC80E000F5801D /* Constants.swift */; };
+		016796F91DFC892500F5801D /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016796F81DFC892500F5801D /* ImageCache.swift */; };
 		01847BFA1DE10CD60071268D /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01847BF91DE10CD60071268D /* Company.swift */; };
 		01847BFC1DE110230071268D /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01847BFB1DE110230071268D /* CompanyCell.swift */; };
 		8EAD68656340F5C9A8216F15 /* Pods_GlassdoorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B442AE5D5716D37C783DB350 /* Pods_GlassdoorApp.framework */; };
@@ -42,6 +43,7 @@
 		01091FD81DE0BB04005018F7 /* GlassdoorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdoorAppTests.swift; sourceTree = "<group>"; };
 		01091FDA1DE0BB04005018F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		016796F61DFC80E000F5801D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		016796F81DFC892500F5801D /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		01847BF91DE10CD60071268D /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		01847BFB1DE110230071268D /* CompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
 		291377C142AB088C664246B4 /* Pods-GlassdoorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdoorAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdoorAppTests/Pods-GlassdoorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				01091FCF1DE0BB03005018F7 /* Info.plist */,
 				01847BFB1DE110230071268D /* CompanyCell.swift */,
 				016796F61DFC80E000F5801D /* Constants.swift */,
+				016796F81DFC892500F5801D /* ImageCache.swift */,
 			);
 			path = GlassdoorApp;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016796F91DFC892500F5801D /* ImageCache.swift in Sources */,
 				016796F71DFC80E000F5801D /* Constants.swift in Sources */,
 				01091FC61DE0BB03005018F7 /* ViewController.swift in Sources */,
 				01091FC41DE0BB03005018F7 /* AppDelegate.swift in Sources */,

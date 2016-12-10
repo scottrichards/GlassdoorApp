@@ -15,6 +15,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
 
     var searchTerm : String = ""
     var companies : [Company]?
+    var logoCache : [String : NSData] = [String : NSData]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,11 +43,12 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
     
     func loadData() {
         let manager = AFHTTPSessionManager()
-        let apiURL = "http://api.glassdoor.com/api/api.htm?t.p=107440&t.k=jSi2H1hCmPS&userip=0.0.0.0&useragent=&format=json&v=1&action=employers"
+        let apiURL = "http://api.glassdoor.com/api/api.htm?format=json&v=1&action=employers"
         
         var parameters : NSMutableDictionary = NSMutableDictionary()
         parameters["q"] = self.searchTerm
-//        parameters["k"] = Constants.API.Key
+        parameters["t.k"] = Constants.API.Key
+        parameters["t.p"] = Constants.API.ID
         manager.get(apiURL,
                     parameters: parameters,
                     progress: nil,
@@ -86,6 +88,22 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
             if let companyCell = cell as? CompanyCell {
                 companyCell.companyNameLabel.text = companyInfo?.name
                 companyCell.ratingLabel.text = companyInfo?.rating
+                if let logoURL = companyInfo?.logoURL {
+
+                    if let url = URL(string: logoURL) {
+                        do {
+                            let data = try Data(contentsOf: url)
+                            DispatchQueue.global().async {
+                                    let image = UIImage(data: data)
+                                    DispatchQueue.main.async {
+                                        companyCell.logoImageView.image = image;
+                                    }
+                            }
+                        } catch {
+                            
+                        }
+                    }
+                }
             }
         }
         return cell

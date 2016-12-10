@@ -11,6 +11,7 @@ import UIKit
 class Company: NSObject {
     var name : String?
     var rating : String?
+    var logoURL : String?
     
     init(dict : NSDictionary) {
         if let nameStr = dict["name"] as? String {
@@ -18,6 +19,9 @@ class Company: NSObject {
         }
         if let ratingStr = dict["overallRating"] as? String {
             self.rating = ratingStr
+        }
+        if let logoURLStr = dict["squareLogo"] as? String {
+            logoURL = logoURLStr
         }
     }
 }
