@@ -109,6 +109,26 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
         return cell
     }
     
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let deleteClosure = { (action: UITableViewRowAction, indexPath: IndexPath) -> Void in
+            print("Delete closure called")
+        }
+        
+        let moreClosure = { (action: UITableViewRowAction, indexPath: IndexPath) -> Void in
+            print("More closure called")
+        }
+        
+        let deleteAction = UITableViewRowAction(style: .default, title: "Delete", handler: deleteClosure)
+        let moreAction = UITableViewRowAction(style: .normal, title: "More", handler: moreClosure)
+        
+        return [deleteAction, moreAction]
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        // you need to override tableView:commitEditingStyle:forRowAtIndexPath:, even though you can leave it blank. If the method is not present, the actions won’t show up on swipe
+    }
+    
+    
     //MARK: - UISearchBar Delegate
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
